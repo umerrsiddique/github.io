@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Bank Key"
+		class="sapUiPopupWithPadding"
+		items="{f4help>/bnkkey}"
+		search="_handleValueHelpSearchBankKey"
+		confirm="_handleValueHelpCloseBankKey"
+		cancel="_handleValueHelpCloseBankKey">
+		<StandardListItem
+			iconDensityAware="false"
+			iconInset="false"
+			title="{f4help>banka}"
+			description="{f4help>bankl}"/>
+	</SelectDialog>
+</core:FragmentDefinition>

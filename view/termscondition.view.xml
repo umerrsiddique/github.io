@@ -1,0 +1,41 @@
+<View controllerName="vendorregistration.view.termscondition"  xmlns:table="sap.ui.table" xmlns:u="sap.ui.unified" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:f="sap.ui.layout.form"  xmlns:core="sap.ui.core">
+	<Page title="Terms and Conditions">
+		<content>
+		<l:VerticalLayout
+		class="sapUiContentPadding"
+		width="100%">
+		<l:content>
+			<Panel id="terms" height="500px" width="800px"> 
+			
+			<l:VerticalLayout
+				class="sapUiContentPadding"
+				width="100%">	
+			<Text id="termsheading1" text="Welcome to Google!"/>
+			
+			<Text id="termsdetail1" text="Thanks for using our products and services (“Services”). The Services are provided by Google LLC (“Google”), located at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+						By using our Services, you are agreeing to these terms. Please read them carefully.
+						Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services."/>
+			<Text id="termsheading2"  text="Using our Services"/>
+			<Text id="termsdetail2" text="You must follow any policies made available to you within the Services.
+                        Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.
+						Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services."/>
+			<Text id="termsheading3" text="Your Google Account"/>
+			<Text id="termsdetail3" text="You may need a Google Account in order to use some of our Services. You may create your own Google Account, or your Google Account may be assigned to you by an administrator, such as your employer or educational institution. If you are using a Google Account assigned to you by an administrator, different or additional terms may apply and your administrator may be able to access or disable your account.
+                        To protect your Google Account, keep your password confidential. You are responsible for the activity that happens on or through your Google Account. Try not to reuse your Google Account password on third-party applications. If you learn of any unauthorized use of your password or Google Account, follow these instructions."/>
+			<CheckBox id="agreecheck" select="onSelectionChange" text="I agree to Terms and Conditions"/>
+			</l:VerticalLayout>
+			</Panel>
+		</l:content>
+		</l:VerticalLayout>
+	 
+		</content>
+		<footer>
+			<Toolbar>
+			<ToolbarSpacer/>
+			<Button id="next" text="Proceed" iconFirst="false" enabled="false" icon="sap-icon://open-command-field" press="onAgreePress" type="Emphasized" width="7rem"/>
+			<ToolbarSpacer/>
+				
+			</Toolbar>
+		</footer>
+	</Page>
+</View>

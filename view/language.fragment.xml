@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<SelectDialog
+		title="Language"
+		class="sapUiPopupWithPadding"
+		items="{f4help>/lang}"
+		search="_handleValueHelpSearchLanguage"
+		confirm="_handleValueHelpCloseLanguage"
+		cancel="_handleValueHelpCloseLanguage">
+		<StandardListItem
+			iconDensityAware="false"
+			iconInset="false"
+			title="{f4help>sptxt}"
+			description="{f4help>sprsl}"/>
+	</SelectDialog>
+</core:FragmentDefinition>
